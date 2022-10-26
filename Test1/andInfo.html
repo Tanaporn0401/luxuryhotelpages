@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เพิ่มปี/เทอมการศึกษา</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="andinfo.css">
+
+</head>
+
+<body>
+    <div class="sidebar active">
+
+        <div class="logo_content">
+            <div class="logo">
+                <img src="./img/fai1.png" alt="">
+                <div class="logo_name">โรงเรียนปัญญาประทีป</div>
+            </div>
+            <i class='bx bx-chevrons-left' id="btn"></i>
+        </div>
+
+        <ul class="menu">
+            <li>
+                <a href="#">
+                    <i class="fas fa-th-large"></i>
+                    <span class="link_name">แดชบอร์ด</span>
+                </a>
+            </li>
+        </ul>
+
+        <div class="group1 ">
+            <div class="dropdown-btn1">
+                <button class="dropdown-btn">
+                    <i class="fas fa-bullhorn"></i> <span>ประกาศและข่าวสาร</span> <i class="fas fa-caret-right"></i>
+                </button>
+                <div class="dropdown-container">
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                </div>
+            </div>
+            <div class="dropdown-btn2">
+                <button class="dropdown-btn">
+                    <i class="far fa-comments"></i>
+                    <span>แลกเปลี่ยนความรู้</span>
+                    <i class="fas fa-caret-right"></i>
+                </button>
+                <div class="dropdown-container">
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                </div>
+            </div>
+            <div class="dropdown-btn3">
+                <button class="dropdown-btn">
+                    <i class="fas fa-folder-open"></i>
+                    <span>บริการข้อมูล</span>
+                    <i class="fas fa-caret-right"></i>
+                </button>
+                <div class="dropdown-container">
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="group2">
+            <ul class="menu">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-pencil-ruler"></i>
+                        <span class="link_name">งานวิชาการ </span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="menu">
+                <li>
+                    <a href="#">
+                        <i class="far fa-calendar-times"></i>
+                        <span class="link_name">ระบบลา</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="group3">
+            <ul class="menu">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-book-reader"></i>
+                        <span class="link_name">นักเรียน</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="menu">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-users"></i>
+                        <span class="link_name">คุณครู</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="menu">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-user-friends"></i>
+                        <span class="link_name">ผู้ปกครอง</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="group4">
+            <ul class="menu">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-file-alt"></i>
+                        <span class="link_name">รายงาน</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="menu">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-user-cog"></i>
+                        <span class="link_name">ตั้งค่าผู้ใช้งานและสิทธิ</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="menu">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-user"></i>
+                        <span class="link_name">ระบบจัดการสมาชิก</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="menu">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-cogs"></i>
+                        <span class="link_name">การตั้งค่า</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- endsidebar -->
+
+    <div class="header">
+        <div class="header-text">
+            <p>เพิ่มปี/เทอมการศึกษา</p>
+        </div>
+        <div class="headerSearch"><i class='bx bx-search-alt-2'></i></div>
+        <div class="headerBell"><i class="fas fa-bell"></i></div>
+    </div>
+    <!-- endheader -->
+
+    <div class="container">
+        <div class="container-header">
+            <p>รายละเอียดปีการศึกษา/เทอม</p>
+        </div>
+        <div class="inputTxT">
+            <span class="year">ปีการศึกษา<input type="text"></span>
+            <span class="term">เทอม<input type="text"></span>
+        </div>
+        <div class="curriculum">
+            <span>หลักสูตร
+                <select>
+                    <option disabled selected hidden></option>
+                    <option>ประถมศึกษา</option>
+                    <option>มัธยมต้น</option>
+                    <option>มัธยมปลาย</option>
+                </select></span>
+        </div>
+        <div class="BTN">
+            <form action="#">
+                <a href="./HealthData.html" class="button"><span>ย้อนกลับ</span></a>
+                <button type="submit"><span>บันทึกข้อมูล</span></button>
+            </form>
+        </div>
+    </div>
+    <!-- endcontainer -->
+
+    <div class="footer">
+        <span>© Panyaprateep. All rights Reseved. 2022</span>
+    </div>
+    <!-- endfooter -->
+
+    <script>
+        let btn = document.querySelector("#btn");
+        let sidebar = document.querySelector(".sidebar");
+        let group1 = document.querySelector(".group1");
+        let Dashboard = document.querySelector(".menu");
+        let group2 = document.querySelector(".group2");
+        let group3 = document.querySelector(".group3");
+        let group4 = document.querySelector(".group4");
+        let headerSearch = document.querySelector(".headerSearch");
+        let footer = document.querySelector(".footer");
+
+        btn.onclick = function () {
+            sidebar.classList.toggle("active");
+            group1.classList.toggle("active");
+            Dashboard.classList.toggle("active");
+            group2.classList.toggle("active");
+            group3.classList.toggle("active");
+            group4.classList.toggle("active");
+            headerSearch.classList.toggle("active");
+            footer.classList.toggle("active");
+        }
+    </script>
+    <script>
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                } else {
+                    dropdownContent.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+
+
+</html>
